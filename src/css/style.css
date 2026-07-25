@@ -5,6 +5,15 @@
     font-family: 'Instrument Sans', sans-serif;
     
 }
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
 
 .cls-header{
     display: flex;
@@ -15,4 +24,9 @@
     color: white;
     font-size: 2.1rem;
     align-items: center;
+}
+
+.cls-main{
+    background: linear-gradient(135deg, #3163C7 100%, #183E89 100%, #113680 100%);
+    flex: 1;
 }
