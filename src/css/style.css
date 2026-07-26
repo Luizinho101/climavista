@@ -30,3 +30,21 @@ body {
     background: linear-gradient(135deg, #3163C7 100%, #183E89 100%, #113680 100%);
     flex: 1;
 }
+.div-principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 50px;
+    gap: 10px;
+   
+}
+li{
+    list-style-type: none;
+    background-color:#FFFFFF12;
+    color: white;
+    padding: 20%;
+    border-radius: 10px;
+}
+.li-principal{
+    grid-column: span 3;
+    grid-row: span 3;
+}
